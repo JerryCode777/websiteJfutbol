@@ -2,6 +2,7 @@ import React from 'react';
 import AOS from 'aos';
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
+import Simulador from './components/Simulador/Simulador';
 
 const App = () => {
   React.useEffect(() => {
@@ -16,10 +17,7 @@ const App = () => {
   className="overflow-hidden">
     <Navbar />
     <Hero />
-    <Hero />
-    <Hero />
-    <Hero />
-    <Hero />
+    <Simulador />
   </div> 
 
 };
