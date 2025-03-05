@@ -14,10 +14,10 @@ const App = () => {
     });
   },[]);
   return <div
-  className="bg-gray-300 overflow-hidden">
+  className="bg-gray-900 overflow-hidden">
     <Navbar />
-    <Hero />
     <Simulador />
+    <Hero />
   </div> 
 
 };

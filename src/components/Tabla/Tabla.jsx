@@ -1,4 +1,5 @@
-const Tabla = ({ equipos, partidos }) => {
+// src/components/Tabla/Tabla.jsx
+const Tabla = ({ equipos, partidos, onTeamClick }) => {
   const calcularEstadisticas = (equipoId) => {
     return partidos.reduce((acc, partido) => {
       if (partido.golesLocal === null || partido.golesVisitante === null) return acc;
@@ -67,7 +68,9 @@ const Tabla = ({ equipos, partidos }) => {
                 className="hover:bg-gray-800/50 transition-colors duration-200"
               >
                 <td className="px-2 py-1.5 border-b border-gray-700 text-gray-300 text-center text-sm">{index + 1}</td>
-                <td className="px-2 py-1.5 border-b border-gray-700 font-medium text-gray-100 text-sm text-left truncate">
+                <td className="px-2 py-1.5 border-b border-gray-700 font-medium text-gray-100 text-sm text-left truncate cursor-pointer hover:text-blue-400 transition-colors" 
+                onClick={() => onTeamClick(equipo)}
+                >
                   <div className="flex items-center gap-2">
                     <img 
                       src={new URL(`../../assets/banderas/${equipo.logo}`, import.meta.url).href}
@@ -102,7 +105,6 @@ const Tabla = ({ equipos, partidos }) => {
         </div>
         )}
       </div>
-      {/* ... (resto del componente igual) */}
     </div>
   ); 
 };
