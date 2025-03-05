@@ -14,7 +14,7 @@ const App = () => {
     });
   },[]);
   return <div
-  className="overflow-hidden">
+  className="bg-gray-300 overflow-hidden">
     <Navbar />
     <Hero />
     <Simulador />

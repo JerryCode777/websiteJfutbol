@@ -2,6 +2,7 @@
 import React, { useState, useMemo } from "react";
 import Partido from "../Partido/Partido";
 import Tabla from "../Tabla/Tabla";
+import { FaYoutube } from "react-icons/fa";
 import { equipos, partidos as partidosIniciales } from "../../dataf/partidos";
 
 const Simulador = () => {
@@ -34,22 +35,29 @@ const Simulador = () => {
   const partidosHastaFechaActual = partidos.filter(p => p.fecha <= fechaActual);
 
   return (
-    <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold text-center mb-8">Simulador de Posiciones</h1>
-      
+    <div className="container mx-auto p-4 bg-gray-900 min-h-screen slide-up">
+      <div className="flex justify-center gap-2 mb-6 md:mb-8">
+          <h1 className="text-2xl md:text-3xl font-bold text-center px-2 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
+          La Calculadora JeyFutbol-Pe
+          </h1>
+          <FaYoutube className="text-red-600 text-3xl md:text-4xl hover:text-red-500 transition-colors -mb-1" />
+     </div>
+     
       <Tabla equipos={equipos} partidos={partidosHastaFechaActual} />
       
-      <div className="flex justify-center items-center gap-4 my-6">
+      <div className="flex justify-center items-center gap-3 md:gap-4 my-4 md:my-6">
         <button
-          className="px-4 py-2 bg-blue-500 text-white rounded disabled:opacity-50 disabled:cursor-not-allowed"
+          className="px-3 py-1.5 md:px-4 md:py-2 bg-gray-800 hover:bg-gray-700 text-gray-300 rounded-lg 
+                     transition-all duration-300 transform hover:scale-105 text-sm md:text-base"
           onClick={() => setFechaActual(f => Math.max(1, f - 1))}
           disabled={fechaActual === 1}
         >
           ←
         </button>
-        <span className="text-xl font-semibold">Fecha {fechaActual}</span>
+        <span className="text-lg md:text-xl font-semibold text-gray-300">Fecha {fechaActual}</span>
         <button
-          className="px-4 py-2 bg-blue-500 text-white rounded disabled:opacity-50 disabled:cursor-not-allowed"
+          className="px-3 py-1.5 md:px-4 md:py-2 bg-gray-800 hover:bg-gray-700 text-gray-300 rounded-lg 
+                     transition-all duration-300 transform hover:scale-105 text-sm md:text-base"
           onClick={() => setFechaActual(f => Math.min(maxFecha, f + 1))}
           disabled={fechaActual === maxFecha}
         >
@@ -57,17 +65,21 @@ const Simulador = () => {
         </button>
       </div>
 
-      <div className="space-y-4">
-        <h2 className="text-2xl font-bold text-center mb-4">Partidos Fecha {fechaActual}</h2>
-        {partidosPorFecha[fechaActual]?.map((partido) => (
-          <Partido
-            key={partido.id}
-            partido={partido}
-            equipos={equipos}
-            onResultChange={handleResultChange}
-          />
-        ))}
-      </div>
+      <div className="mx-auto max-w-2xl px-2 md:px-4"> {/* Added px-2 para mobile */}
+        <h2 className="text-xl md:text-2xl font-bold text-center mb-3 md:mb-4 text-gray-300">
+          Partidos Fecha {fechaActual}
+        </h2>
+        <div className="space-y-2 md:space-y-3">
+          {partidosPorFecha[fechaActual]?.map((partido) => (
+            <Partido
+              key={partido.id}
+              partido={partido}
+              equipos={equipos}
+              onResultChange={handleResultChange}
+            />
+          ))}
+        </div>
+     </div>
     </div>
   );
 };
