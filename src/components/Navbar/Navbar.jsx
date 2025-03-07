@@ -1,7 +1,6 @@
-import React from 'react'
-import { FaSearch } from 'react-icons/fa'
-import { MdArrowDropDown } from 'react-icons/md'
-import { GiSoccerBall } from 'react-icons/gi'
+import React from 'react';
+import { GiSoccerBall } from 'react-icons/gi';
+import { TfiYoutube } from "react-icons/tfi";
 
 const MenuLinks = [
   {
@@ -13,13 +12,17 @@ const MenuLinks = [
     link: "#/store",
   },
   {
-    name: "Artículo",
+    name: "Artículos",
     link: "#/toys",
+  },
+  {
+    name: "Sobre nosotros",
+    link: "#/about",
   },
   {
     name: "Contacto",
     link: "#/videos",
-  },
+  }
 ];
 
 const Navbar = () => {
@@ -50,20 +53,11 @@ const Navbar = () => {
               })}
             </ul>
           </div>
-          {/* aqui va la busqueda */}
           <div className='flex items-center gap-6'>
-            <input 
-              type="text"
-              placeholder='Search'
-              className='hidden sm:block py-2 px-3 rounded-full bg-slate-200'
-            />
-            <div className='bg-primary hover:bg-primary/80 p-3 rounded-full cursor-pointer'>
-              <FaSearch className='text-white text-sm' />
-            </div>
-            <div className='flex items-center navlink cursor-pointer'>
-              Eng
+              <div className='flex items-center navlink cursor-pointer'>
+                YouTube
               <span>
-                <MdArrowDropDown />
+                <TfiYoutube />
               </span>
             </div>
           </div>
