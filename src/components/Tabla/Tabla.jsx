@@ -68,7 +68,7 @@ const Tabla = ({ equipos, partidos, onTeamClick }) => {
                 className="hover:bg-gray-800/50 transition-colors duration-200"
               >
                 <td className="px-2 py-1.5 border-b border-gray-700 text-gray-300 text-center text-sm">{index + 1}</td>
-                <td className="px-2 py-1.5 border-b border-gray-700 font-medium text-gray-100 text-sm text-left truncate cursor-pointer hover:text-blue-400 transition-colors" 
+                <td className="px-2 py-1.5 border-b border-gray-700 font-bold text-gray-100 text-sm text-left truncate cursor-pointer hover:text-blue-400 transition-colors" 
                 onClick={() => onTeamClick(equipo)}
                 >
                   <div className="flex items-center gap-2">

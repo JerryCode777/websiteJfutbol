@@ -101,7 +101,7 @@ const FixtureEquipo = ({ equipo, equipos, todosLosPartidos, fechaActual, onClose
                           alt={rival?.name}
                           className="h-6 w-10 object-contain"
                         />
-                        <span className="text-base font-medium text-gray-100">
+                        <span className="text-base font-bold text-gray-100">
                           {rival?.name}
                         </span>
                       </div>
