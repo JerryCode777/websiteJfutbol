@@ -4,40 +4,40 @@ export const partidos = [
         fecha: 1,
         local: 1974,    // Uruguay
         visitante: 1267, // Chile
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 3,
+        golesVisitante: 1,
     },
     {
         id: 2,
         fecha: 1,
         local: 1005,    // Colombia
         visitante: 1291, // Venezuela
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 1,
+        golesVisitante: 0,
     },
     {
         id: 3,
         fecha: 1,
         local: 1844,    // Brasil
         visitante: 1573, // Bolivia
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 5,
+        golesVisitante: 1,
     },
     {
         id: 4,
         fecha: 1,
         local: 1829,    // Paraguay
         visitante: 1199, // Perú
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 0,
+        golesVisitante: 0,
     },
     {
         id: 5,
         fecha: 1,
         local: 1753,    // Argentina
         visitante: 2130, // Ecuador
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 1,
+        golesVisitante: 0,
     },
     // Fecha 2
     {
@@ -45,40 +45,40 @@ export const partidos = [
         fecha: 2,
         local: 1199,    // Perú
         visitante: 1844, // Brasil
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 0,
+        golesVisitante: 1,
     },
     {
         id: 7,
         fecha: 2,
         local: 1291,    // Venezuela
         visitante: 1829, // Paraguay
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 1,
+        golesVisitante: 0,
     },
     {
         id: 8,
         fecha: 2,
         local: 1573,    // Bolivia
         visitante: 1753, // Argentina
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 0,
+        golesVisitante: 3,
     },
     {
         id: 9,
         fecha: 2,
         local: 1267,    // Chile
         visitante: 1005, // Colombia
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 0,
+        golesVisitante: 0,
     },
     {
         id: 10,
         fecha: 2,
         local: 2130,    // Ecuador
         visitante: 1974, // Uruguay
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 2,
+        golesVisitante: 1,
     },
     // Fecha 3
     {
@@ -86,40 +86,40 @@ export const partidos = [
         fecha: 3,
         local: 1005,    // Colombia
         visitante: 1974, // Uruguay
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 2,
+        golesVisitante: 2,
     },
     {
         id: 12,
         fecha: 3,
         local: 1844,    // Brasil
         visitante: 1291, // Venezuela
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 1,
+        golesVisitante: 1,
     },
     {
         id: 13,
         fecha: 3,
         local: 1573,    // Bolivia
         visitante: 2130, // Ecuador
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 1,
+        golesVisitante: 2,
     },
     {
         id: 14,
         fecha: 3,
         local: 1753,    // Argentina
         visitante: 1829, // Paraguay
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 1,
+        golesVisitante: 0,
     },
     {
         id: 15,
         fecha: 3,
         local: 1267,    // Chile
         visitante: 1199, // Perú
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 2,
+        golesVisitante: 0,
     },
     // Fecha 4
     {
@@ -127,40 +127,40 @@ export const partidos = [
         fecha: 4,
         local: 1974,    // Uruguay
         visitante: 1844, // Brasil
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 2,
+        golesVisitante: 0,
     },
     {
         id: 17,
         fecha: 4,
         local: 1199,    // Perú
         visitante: 1753, // Argentina
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 0,
+        golesVisitante: 2,
     },
     {
         id: 18,
         fecha: 4,
         local: 1291,    // Venezuela
         visitante: 1267, // Chile
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 3,
+        golesVisitante: 0,
     },
     {
         id: 19,
         fecha: 4,
         local: 1829,    // Paraguay
         visitante: 1573, // Bolivia
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 1,
+        golesVisitante: 0,
     },
     {
         id: 20,
         fecha: 4,
         local: 2130,    // Ecuador
         visitante: 1005, // Colombia
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 0,
+        golesVisitante: 0,
     },
     // Fecha 5
     {
@@ -168,80 +168,80 @@ export const partidos = [
         fecha: 5,
         local: 1573,    // Bolivia
         visitante: 1199, // Perú
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 2,
+        golesVisitante: 0,
     },
     {
         id: 22,
         fecha: 5,
         local: 1291,    // Venezuela
         visitante: 2130, // Ecuador
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 0,
+        golesVisitante: 0,
     },
     {
         id: 23,
         fecha: 5,
         local: 1267,    // Chile
         visitante: 1829, // Paraguay
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 0,
+        golesVisitante: 0,
     },
     {
         id: 24,
         fecha: 5,
         local: 1005,    // Colombia
         visitante: 1844, // Brasil
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 2,
+        golesVisitante: 1,
     },
     {
         id: 25,
         fecha: 5,
         local: 1753,    // Argentina
         visitante: 1974, // Uruguay
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 0,
+        golesVisitante: 2,
     },
     {
         id: 26,
         fecha: 6,
         local: 2130,    // Ecuador
         visitante: 1267, // Chile
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 1,
+        golesVisitante: 0,
     },
     {
         id: 27,
         fecha: 6,
         local: 1844,    // Brasil
         visitante: 1753, // Argentina
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 0,
+        golesVisitante: 1,
     },
     {
         id: 28,
         fecha: 6,
         local: 1829,    // Paraguay
         visitante: 1005, // Colombia
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 0,
+        golesVisitante: 1,
     },
     {
         id: 29,
         fecha: 6,
         local: 1974,    // Uruguay
         visitante: 1573, // Bolivia
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 3,
+        golesVisitante: 0,
     },
     {
         id: 30,
         fecha: 6,
         local: 1199,    // Perú
         visitante: 1291, // Venezuela
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 1,
+        golesVisitante: 1,
     },
     // Fecha 7
     {
@@ -249,40 +249,40 @@ export const partidos = [
         fecha: 7,
         local: 1974,    // Uruguay
         visitante: 1829, // Paraguay
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 0,
+        golesVisitante: 0,
     },
     {
         id: 32,
         fecha: 7,
         local: 1199,    // Perú
         visitante: 1005, // Colombia
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 1,
+        golesVisitante: 1,
     },
     {
         id: 33,
         fecha: 7,
         local: 1844,    // Brasil
         visitante: 2130, // Ecuador
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 1,
+        golesVisitante: 0,
     },
     {
         id: 34,
         fecha: 7,
         local: 1573,    // Bolivia
         visitante: 1291, // Venezuela
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 4,
+        golesVisitante: 0,
     },
     {
         id: 35,
         fecha: 7,
         local: 1753,    // Argentina
         visitante: 1267, // Chile
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 3,
+        golesVisitante: 0,
     },
     // Fecha 8
     {
@@ -290,40 +290,40 @@ export const partidos = [
         fecha: 8,
         local: 1005,    // Colombia
         visitante: 1753, // Argentina
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 2,
+        golesVisitante: 1,
     },
     {
         id: 37,
         fecha: 8,
         local: 1291,    // Venezuela
         visitante: 1974, // Uruguay
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 0,
+        golesVisitante: 0,
     },
     {
         id: 38,
         fecha: 8,
         local: 1829,    // Paraguay
         visitante: 1844, // Brasil
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 1,
+        golesVisitante: 0,
     },
     {
         id: 39,
         fecha: 8,
         local: 1267,    // Chile
         visitante: 1573, // Bolivia
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 1,
+        golesVisitante: 2,
     },
     {
         id: 40,
         fecha: 8,
         local: 2130,    // Ecuador
         visitante: 1199, // Perú
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 1,
+        golesVisitante: 0,
     },
     // Fecha 9
     {
@@ -331,40 +331,40 @@ export const partidos = [
         fecha: 9,
         local: 1573,    // Bolivia
         visitante: 1005, // Colombia
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 1,
+        golesVisitante: 0,
     },
     {
         id: 42,
         fecha: 9,
         local: 2130,    // Ecuador
         visitante: 1829, // Paraguay
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 0,
+        golesVisitante: 0,
     },
     {
         id: 43,
         fecha: 9,
         local: 1199,    // Perú
         visitante: 1974, // Uruguay
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 1,
+        golesVisitante: 0,
     },
     {
         id: 44,
         fecha: 9,
         local: 1291,    // Venezuela
         visitante: 1753, // Argentina
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 1,
+        golesVisitante: 1,
     },
     {
         id: 45,
         fecha: 9,
         local: 1267,    // Chile
         visitante: 1844, // Brasil
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 1,
+        golesVisitante: 2,
     },
     // Fecha 10
     {
@@ -372,80 +372,80 @@ export const partidos = [
         fecha: 10,
         local: 1829,    // Paraguay
         visitante: 1291, // Venezuela
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 2,
+        golesVisitante: 1,
     },
     {
         id: 47,
         fecha: 10,
         local: 1974,    // Uruguay
         visitante: 2130, // Ecuador
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 0,
+        golesVisitante: 0,
     },
     {
         id: 48,
         fecha: 10,
         local: 1753,    // Argentina
         visitante: 1573, // Bolivia
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 6,
+        golesVisitante: 0,
     },
     {
         id: 49,
         fecha: 10,
         local: 1844,    // Brasil
         visitante: 1199, // Perú
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 4,
+        golesVisitante: 0,
     },
     {
         id: 50,
         fecha: 10,
         local: 1005,    // Colombia
         visitante: 1267, // Chile
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 4,
+        golesVisitante: 0,
     },
     {
         id: 51,
         fecha: 11,
         local: 1974,    // Uruguay
         visitante: 1005, // Colombia
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 3,
+        golesVisitante: 2,
     },
     {
         id: 52,
         fecha: 11,
         local: 1199,    // Perú
         visitante: 1267, // Chile
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 0,
+        golesVisitante: 0,
     },
     {
         id: 53,
         fecha: 11,
         local: 1291,    // Venezuela
         visitante: 1844, // Brasil
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 1,
+        golesVisitante: 1,
     },
     {
         id: 54,
         fecha: 11,
         local: 1829,    // Paraguay
         visitante: 1753, // Argentina
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 2,
+        golesVisitante: 1,
     },
     {
         id: 55,
         fecha: 11,
         local: 2130,    // Ecuador
         visitante: 1573, // Bolivia
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 4,
+        golesVisitante: 0,
     },
     // Fecha 12
     {
@@ -453,40 +453,40 @@ export const partidos = [
         fecha: 12,
         local: 1005,    // Colombia
         visitante: 2130, // Ecuador
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 0,
+        golesVisitante: 1,
     },
     {
         id: 57,
         fecha: 12,
         local: 1844,    // Brasil
         visitante: 1974, // Uruguay
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 1,
+        golesVisitante: 1,
     },
     {
         id: 58,
         fecha: 12,
         local: 1573,    // Bolivia
         visitante: 1829, // Paraguay
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 2,
+        golesVisitante: 2,
     },
     {
         id: 59,
         fecha: 12,
         local: 1753,    // Argentina
         visitante: 1199, // Perú
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 1,
+        golesVisitante: 0,
     },
     {
         id: 60,
         fecha: 12,
         local: 1267,    // Chile
         visitante: 1291, // Venezuela
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 4,
+        golesVisitante: 2,
     },
     // Fecha 13
     {

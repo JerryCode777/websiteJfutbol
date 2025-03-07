@@ -25,7 +25,7 @@ const Partido = ({ partido, equipos, onResultChange }) => {
                    transition-all duration-300 hover:bg-gray-700/50 mx-auto w-full">
       <span className="flex-1 text-right font-medium text-gray-300 text-xs md:text-sm truncate pr-1">
         <div className="flex items-center gap-1 justify-end">
-          <span>{equipoLocal?.name}</span>
+          <span className="font-bold">{equipoLocal?.name}</span>
           <img 
             src={new URL(`../../assets/banderas/${equipoLocal?.logo}`, import.meta.url).href}
             alt={equipoLocal?.name}
@@ -38,21 +38,23 @@ const Partido = ({ partido, equipos, onResultChange }) => {
         <input
           type="number"
           className="w-10 md:w-14 text-center border border-gray-600 rounded-md py-1 bg-gray-700 
-                     text-gray-100 focus:ring-2 focus:ring-blue-500 focus:border-transparent text-xs md:text-sm"
+                     text-white font-bold focus:ring-2 focus:ring-blue-500 focus:border-transparent text-xs md:text-sm"
           value={golesLocal ?? ''}
           onChange={(e) => handleChange('local', e.target.value)}
           min="0"
           placeholder="-"
+          disabled={partido.fecha <= 12}
         />
         <span className="text-sm md:text-base font-bold text-gray-300">:</span>
         <input
           type="number"
           className="w-10 md:w-14 text-center border border-gray-600 rounded-md py-1 bg-gray-700 
-                     text-gray-100 focus:ring-2 focus:ring-blue-500 focus:border-transparent text-xs md:text-sm"
+                     text-white font-bold -100 focus:ring-2 focus:ring-blue-500 focus:border-transparent text-xs md:text-sm"
           value={golesVisitante ?? ''}
           onChange={(e) => handleChange('visitante', e.target.value)}
           min="0"
           placeholder="-"
+          disabled={partido.fecha <= 12}
         />
       </div>
       
@@ -63,7 +65,7 @@ const Partido = ({ partido, equipos, onResultChange }) => {
             alt={equipoVisitante?.name}
             className="h-4 w-6 object-contain"
           />
-          <span>{equipoVisitante?.name}</span>
+          <span className="font-bold">{equipoVisitante?.name}</span>
         </div>
       </span>
     </div>
