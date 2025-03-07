@@ -5,19 +5,19 @@ import { GiSoccerBall } from 'react-icons/gi'
 
 const MenuLinks = [
   {
-    name: "Episodes",
+    name: "Inicio",
     link: "#/",
   },
   {
-    name: "Store",
+    name: "Videos",
     link: "#/store",
   },
   {
-    name: "Toys",
+    name: "Artículo",
     link: "#/toys",
   },
   {
-    name: "3D videos",
+    name: "Contacto",
     link: "#/videos",
   },
 ];

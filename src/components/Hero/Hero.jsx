@@ -11,11 +11,11 @@ const Hero = () => {
           {/* Contenido */}
           <div className='space-y-3 md:space-y-7 flex flex-col justify-center text-center sm:text-left px-10 sm:px-0'>
             <div data-aos='fade-up'>
-              <h1 className='text-4xl md:text-6xl font-bold'>Watch Now in</h1>
-              <h1 className='text-6xl font-bold text-primary'>3D</h1>
+              <h1 className='text-4xl md:text-6xl font-bold'>Visitanos en </h1>
+              <h1 className='text-6xl font-bold text-primary'>YouTube</h1>
             </div>
             <p className='text-gray-500 text-sm font-semibold'>
-              The first full history in the JR series was published in 1999. The series is about...
+              No solo lo leas, vívelo con nosotros. Mira nuestros videos y únete a la comunidad.
             </p>
             <div className='mx-auto sm:mx-0'>
               <button className='primary-btn flex justify-center items-center gap-3'>
