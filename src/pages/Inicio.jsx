@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import { GiSoccerBall } from 'react-icons/gi';
 import { TfiYoutube } from "react-icons/tfi";
+import diaz from '../assets/diaz.png'; // Agrega esta imagen en tu assets
+import quispe from '../assets/quispe.png'; // Agrega esta imagen en tu assets
 
 const Inicio = () => {
   return (
@@ -39,7 +41,7 @@ const Inicio = () => {
                 className="block overflow-hidden rounded-xl"
               >
                 <img 
-                  src="src\assets\diaz.png" 
+                  src= {diaz}
                   alt="Miniatura video 1" 
                   className="w-full h-56 object-cover transform group-hover:scale-105 transition-transform"
                 />
@@ -59,7 +61,7 @@ const Inicio = () => {
                 className="block overflow-hidden rounded-xl"
               >
                 <img 
-                  src="src\assets\quispe.png" 
+                  src= {quispe}
                   alt="Miniatura video 2" 
                   className="w-full h-56 object-cover transform group-hover:scale-105 transition-transform"
                 />
