@@ -1,27 +1,29 @@
+// src\components\Navbar\Navbar.jsx
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { GiSoccerBall } from 'react-icons/gi';
 import { TfiYoutube } from "react-icons/tfi";
 
 const MenuLinks = [
   {
     name: "Inicio",
-    link: "#/",
+    link: "/",
   },
   {
-    name: "Videos",
-    link: "#/store",
+    name: "Calculadora",
+    link: "/calculadora",
   },
   {
     name: "Artículos",
-    link: "#/toys",
+    link: "/articulos",
   },
   {
     name: "Sobre nosotros",
-    link: "#/about",
+    link: "/about",
   },
   {
     name: "Contacto",
-    link: "#/videos",
+    link: "/contacto",
   }
 ];
 
@@ -31,13 +33,13 @@ const Navbar = () => {
       <div className='container'>
         <div className='flex items-center justify-between'>
           {/* aqui va el logo */}
-          <div className='flex items-center gap-4'>
+          <Link to="/" className='flex items-center gap-4'>
             <GiSoccerBall className='h-12 text-6xl text-white' />
             <div className='flex flex-col text-2xl font-bold text-white leading-5'>
               <span>Jey</span>
               <span className='text-sky-400'>FutbolPe-</span>
             </div>
-          </div>
+          </Link>
 
           {/* aqui van los links */}
           <div className='hidden md:block'>
@@ -45,22 +47,22 @@ const Navbar = () => {
               {MenuLinks.map((link) => {
                 return (
                   <li key={link.name}>
-                    <a href={link.link} className='navlink'>
+                    <Link to={link.link} className='navlink'>
                       {link.name}
-                    </a>
+                    </Link>
                   </li>
                 );
               })}
             </ul>
           </div>
-          <div className='flex items-center gap-6'>
+          <a href="https://www.youtube.com/@JeyFutbolPe" className='flex items-center gap-6'>
               <div className='flex items-center navlink cursor-pointer'>
                 YouTube
               <span>
                 <TfiYoutube />
               </span>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </div>
