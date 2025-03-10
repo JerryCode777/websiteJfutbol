@@ -69,7 +69,7 @@ const Inicio = () => {
                   <TfiYoutube className="text-6xl text-red-600" />
                 </div>
               </a>
-              <h3 className="mt-4 text-lg font-semibold">ELIMINATORIAS CONMEBOL FECHAS 1 Y 2 - PREDICCIÓN SEPTIEMBRE 2023 - ¿Perú le gana a Brasil?</h3>
+              <h3 className="mt-4 text-lg font-semibold">ELIMINATORIAS CONMEBOL</h3>
             </div>
           </div>
         </div>
