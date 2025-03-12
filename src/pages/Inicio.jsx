@@ -69,7 +69,7 @@ const Inicio = () => {
                   <TfiYoutube className="text-6xl text-red-600" />
                 </div>
               </a>
-              <h3 className="mt-4 text-lg font-semibold">ELIMINATORIAS CONMEBOL</h3>
+              <h3 className="mt-4 text-lg font-semibold">ELIMINATORIAS CONMEBOL 2025</h3>
             </div>
           </div>
         </div>
