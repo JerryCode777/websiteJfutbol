@@ -55,7 +55,7 @@ const Inicio = () => {
             {/* Video 2 */}
             <div className="relative group">
               <a 
-                href="https://youtu.be/3z7p-18Hum4" 
+                href="https://youtu.be/QJKN2i4TLW4?si=m4pzIezIWo_Mr030" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block overflow-hidden rounded-xl"
