@@ -494,40 +494,40 @@ export const partidos = [
         fecha: 13,
         local: 1974,    // Uruguay
         visitante: 1753, // Argentina
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 0,
+        golesVisitante: 1,
     },
     {
         id: 62,
         fecha: 13,
         local: 1199,    // Perú
         visitante: 1573, // Bolivia
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 3,
+        golesVisitante: 1,
     },
     {
         id: 63,
         fecha: 13,
         local: 1844,    // Brasil
         visitante: 1005, // Colombia
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 2,
+        golesVisitante: 1,
     },
     {
         id: 64,
         fecha: 13,
         local: 1829,    // Paraguay
         visitante: 1267, // Chile
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 1,
+        golesVisitante: 0,
     },
     {
         id: 65,
         fecha: 13,
         local: 2130,    // Ecuador
         visitante: 1291, // Venezuela
-        golesLocal: null,
-        golesVisitante: null,
+        golesLocal: 2,
+        golesVisitante: 1,
     },
     // Fecha 14
     {
