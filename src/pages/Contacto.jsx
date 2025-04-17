@@ -54,7 +54,7 @@ const Contacto = () => {
             <li>📞 +51 987 654 321</li>
             <li>
               <a 
-                href="https://www.youtube.com/@JeyFutbolPe" 
+                href="https://www.youtube.com/@jaka.Sports" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-red-500 hover:text-red-400 flex items-center gap-2"

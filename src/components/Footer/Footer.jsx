@@ -40,7 +40,7 @@ const Footer = () => {
           <div>
             <h4 className="text-slate-400 text-lg font-semibold mb-4">Síguenos</h4>
             <div className="flex space-x-4">
-              <a href="https://www.youtube.com/@JeyFutbolPe" target="_blank" rel="noopener noreferrer" className="text-red-500 hover:text-red-400 transition-colors">
+              <a href="https://www.youtube.com/@jaka.Sports" target="_blank" rel="noopener noreferrer" className="text-red-500 hover:text-red-400 transition-colors">
                 <TfiYoutube className="text-2xl" />
               </a>
               {/* Añadir más iconos de redes sociales si necesitas */}

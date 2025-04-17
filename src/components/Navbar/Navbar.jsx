@@ -55,7 +55,7 @@ const Navbar = () => {
               })}
             </ul>
           </div>
-          <a href="https://www.youtube.com/@JeyFutbolPe" className='flex items-center gap-6'>
+          <a href="https://www.youtube.com/@jaka.Sports" className='flex items-center gap-6'>
               <div className='flex items-center navlink cursor-pointer'>
                 YouTube
               <span>
