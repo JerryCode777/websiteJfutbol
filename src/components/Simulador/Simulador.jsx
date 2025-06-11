@@ -8,7 +8,7 @@ import { equipos, partidos as partidosIniciales } from "../../dataf/partidos";
 
 const Simulador = () => {
   const [partidos, setPartidos] = useState(partidosIniciales);
-  const [fechaActual, setFechaActual] = useState(16);
+  const [fechaActual, setFechaActual] = useState(17);
   const [equipoSeleccionado, setEquipoSeleccionado] = useState(null);
 
   // Agrupar partidos por fecha
